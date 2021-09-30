@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  QR_Code_Scanner
-//
-//  Created by Anand Baid on 9/27/21.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -13,7 +6,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func scanBtnTapped(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let QRvc = storyboard.instantiateViewController(withIdentifier: "QR_SCAN_ViewController") as! QR_SCAN_ViewController
+        self.navigationController?.pushViewController(QRvc, animated: true)
+    }
 }
-

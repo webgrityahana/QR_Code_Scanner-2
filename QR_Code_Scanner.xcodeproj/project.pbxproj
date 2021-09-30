@@ -15,6 +15,7 @@
 		566095E22701E2A00057DFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566095E02701E2A00057DFDC /* LaunchScreen.storyboard */; };
 		566095ED2701E2A10057DFDC /* QR_Code_ScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566095EC2701E2A10057DFDC /* QR_Code_ScannerTests.swift */; };
 		566095F82701E2A10057DFDC /* QR_Code_ScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566095F72701E2A10057DFDC /* QR_Code_ScannerUITests.swift */; };
+		566137C02702DD7800C0CCDC /* QR_SCAN_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566137BF2702DD7800C0CCDC /* QR_SCAN_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		566095F32701E2A10057DFDC /* QR_Code_ScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QR_Code_ScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566095F72701E2A10057DFDC /* QR_Code_ScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Code_ScannerUITests.swift; sourceTree = "<group>"; };
 		566095F92701E2A10057DFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566137BF2702DD7800C0CCDC /* QR_SCAN_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_SCAN_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				566095DE2701E2A00057DFDC /* Assets.xcassets */,
 				566095E02701E2A00057DFDC /* LaunchScreen.storyboard */,
 				566095E32701E2A00057DFDC /* Info.plist */,
+				566137BF2702DD7800C0CCDC /* QR_SCAN_ViewController.swift */,
 			);
 			path = QR_Code_Scanner;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566137C02702DD7800C0CCDC /* QR_SCAN_ViewController.swift in Sources */,
 				566095DA2701E29A0057DFDC /* ViewController.swift in Sources */,
 				566095D62701E29A0057DFDC /* AppDelegate.swift in Sources */,
 				566095D82701E29A0057DFDC /* SceneDelegate.swift in Sources */,
